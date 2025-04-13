@@ -1,0 +1,66 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "homepage-title-verification;check-homepage-title",
+        "keyword": "Scenario",
+        "line": 2,
+        "name": "Check homepage title",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 285475099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "I open the homepage",
+            "match": {
+              "location": "tests\\step_definitions\\pages\\homePage.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 843793500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 4,
+            "name": "I should see the page title as \"Practice Test Automation Website for Web UI & API\"",
+            "match": {
+              "location": "tests\\step_definitions\\pages\\homePage.ts:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 32730600
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 6013499
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "homepage-title-verification",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Homepage Title Verification",
+    "tags": [],
+    "uri": "tests\\features\\test1.feature"
+  }
+]
